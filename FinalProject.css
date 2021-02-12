@@ -1,0 +1,123 @@
+html, body, div, p
+{
+  margin:0; padding:0;
+}
+body{
+    background-color:lightblue;
+}
+.image {
+  background-image: url(images/userImage.jpg);
+  background-position: top left;
+  background-size: cover;
+}
+.image {
+  width: 50px;
+  height: 50px;
+  text-align: right;
+  padding: 10px 10px 10px 10px;
+  background-color: white;
+  margin: 25px 25px;
+}
+
+.comments{
+    background-color: white;
+    margin: 5px 25px 5px 25px;
+    display: flex;
+    
+}
+
+#output3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif, serif;
+    font-size: 22px;
+    
+}
+#output2{
+    display: flex;
+}
+.container{
+  text-align: left;
+  padding: 30px 40px 30px 40px;
+  margin: 5px 25px 5px 25px;
+  background-color: white;
+ 
+  }
+
+h1 {
+    color: black;
+    margin: 5px 0 5px 0;
+    text-align: left;
+    font-size: 50px;
+    font-weight: 100;
+  }
+  p {
+    color: lightblue;
+    margin: 0px 5px 0 0;
+    text-align: left;
+    font-size: 16px; 
+  }
+
+  .one {
+    color: black;
+    margin: 30px 5px 5px 0;
+    text-align: left;
+    font-size: 10px; 
+  }
+  .two {
+    color: black;
+    margin: 0px 5px 0 0;
+    text-align: left;
+    font-size: 22px; 
+  }
+
+  #nav{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif, serif;
+    font-size: 22px;
+  }
+ .displayNone {
+   display: none;
+ }
+  #nav2{
+    display: flex;
+  }
+  #comment2{
+   width: 900px; 
+  }
+  input[type=text] {
+    width: 150px;
+    font-size: 16px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif, serif;
+    margin-left: 25px;
+    }
+
+  input[type=text2] {
+    width: 1050px;
+    font-size: 16px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif, serif;
+    }
+
+    input[type=submit] {
+        width: 75px;
+        font-size: 16px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif, serif;
+        color: lightblue;
+      }
+
+  #editMe{
+      margin-left: 1000px;
+      color:lightblue;
+      font-size: 12px;
+      background-color: white;
+      border:white;
+  }
+     
+  #deleteMe{
+    color:lightblue;
+    font-size: 12px;
+    background-color: white;
+    border:white;
+}
