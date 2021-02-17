@@ -46,8 +46,8 @@ console.log("made it");
     let submit = $(this);
     let nav2 = $(submit).parent();
     let displayNone = $(nav2).parent();
-    let output3 = $(displayNone).parent();
-    let output3Children = $(output3).children()[3];
+    let output3 = $(displayNone).parent();    
+    let output3Children = $(output3).children()[2];
     $(output3Children).text(comment2);
 
 
